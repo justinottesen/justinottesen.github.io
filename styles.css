@@ -1,0 +1,63 @@
+/* GENERAL */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding-top: 30px;
+  margin: 20px;
+}
+
+/* NAV BAR */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #EEEEEE;
+  padding: 0px 10px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #DDDDDD;
+}
+
+nav a i {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  vertical-align: b;
+}
+
+/* PAGE FOOTER */
+
+footer {
+  text-align: center;
+}
