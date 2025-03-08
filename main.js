@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", async function() {
-
-  
   const repoOwner = "justinottesen";
   const repoName = "justinottesen.github.io";
   const branchName = "master";
