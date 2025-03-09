@@ -1,0 +1,30 @@
+#work-experience {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.company {
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.company-header, .position-header {
+  display: flex;
+  justify-content: space-between; /* Pushes items to opposite ends */
+  align-items: center; /* Aligns items vertically */
+}
+
+.company h3, .position h4 {
+  margin: 0;
+}
+
+.company-dates, .position-dates {
+  font-size: 14px;
+  white-space: nowrap; /* Prevents wrapping */
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
